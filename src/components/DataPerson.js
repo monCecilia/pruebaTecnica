@@ -37,20 +37,7 @@ function DataPerson() {
     return <p>Loading ...</p>;
   }
   
-  // const personList = Object.keys(dataState.results).map((person, item) => { 
-  //  <List key={person} photo={dataState.results[item.thumbnail]} name={item.first[person]} />
-  //   console.log(person);
-  // });
 
-
-  // const personList = Object.keys(dataState.results).map((person, i) => { 
-  //   <List key={i} photo={dataState.results[person].picture.thumbnail} name={dataState.results[person].name.first} />
-  //  });
-  //  console.log(personList);
-  
-
-
-  
   
   
   return (
@@ -61,22 +48,16 @@ function DataPerson() {
             <Navbar.Brand>Interview Task</Navbar.Brand>
             <Button
               variant="outline-secondary"
-              //   disabled={isLoading}
-              //   onClick={!isLoading ? handleClick : null}
             >
               Colored Rows
             </Button>
             <Button
               variant="outline-secondary"
-              //   disabled={isLoading}
-              //   onClick={!isLoading ? handleClick : null}
             >
               Sort by country
             </Button>
             <Button
               variant="outline-secondary"
-              //   disabled={isLoading}
-              //   onClick={!isLoading ? handleClick : null}
             >
               Restore
             </Button>
