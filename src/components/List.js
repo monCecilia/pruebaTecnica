@@ -24,8 +24,7 @@ const List = (props) => {
               <td>{props.country}</td>
               <Button
                 variant="outline-secondary"
-                //   disabled={isLoading}
-                //   onClick={!isLoading ? handleClick : null}
+                onClick={props.onDelete}
               >
                 Delete
               </Button>
@@ -37,9 +36,4 @@ const List = (props) => {
   );
 };
 export default List;
-{
-  /* <div>{props.picture.thumbnail}</div>
-<div>{props.name.first}</div>
-<div>{props.name.last}</div>
-<div>{props.location.country}</div> */
-}
+
